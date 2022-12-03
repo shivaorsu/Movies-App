@@ -4,6 +4,7 @@ import MoviesList from "./components/MoviesList";
 import AddMovie from "./components/AddMovie";
 import "./App.css";
 
+
 function App() {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
